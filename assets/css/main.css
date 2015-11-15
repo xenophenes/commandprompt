@@ -9,9 +9,9 @@
 *
 * #286aaf: Light blue
 * #094074: Darker blue
-* #ebebeb: Off-white
+* #e7eae8: Light gray
 * #fe9000: Orange
-* #000102: Extremely dark gray, almost black
+* #000102102: Extremely dark gray, almost black
 *
 * -----------------------------------------
 * All padding: 0 0 0 0; and margin: 0 0 0 0; definitions are top, right, bottom, left specifications, respectively.
@@ -154,7 +154,7 @@ h3.major span {
 }
 
 a {
-	  color: #006376;
+	  color: #094074;
 	  text-decoration: none;
 }
 
@@ -275,12 +275,12 @@ header > p {
 * Used on index.html.
 */
 
-.calendarBox {
+.color1AlternatingBox {
 	  background-color: #e7eae8;
 	  height: 4.1em;
 }
 
-.calendarBoxAlt {
+.color2AlternatingBox {
 	  background-color: #fff;
 	  height: 4.1em;
 }
@@ -289,7 +289,7 @@ header > p {
 /* #CALENDAR BOXES TABLET */
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
-	  .calendarBox, .calendarBoxAlt {
+	  .color1AlternatingBox, .color2AlternatingBox {
 		    height: 5em !important;
 	  }
 }
@@ -379,7 +379,7 @@ ul.contact li:hover a.fa-twitter {
 }
 
 ul.contact li:hover a.fa-github {
-	  background-color: #000;
+	  background-color: #000102;
 }
 
 ul.contact li:hover a.fa-linkedin {
@@ -576,7 +576,7 @@ table.default thead {
 
 #main-wrapper {
 		background: #fff;
-		border-top: 5px solid #336791;
+		border-top: 5px solid #286aaf;
 		border-bottom: solid 5px #666;
 }
 
@@ -718,6 +718,7 @@ table.default thead {
 		}
 
 		.box.feature > div {
+        padding-top: 1em;
 				height: 220px;
 		}
 
@@ -775,15 +776,15 @@ table.default thead {
 		}
 
 		.box.post-centered a li:hover, .box.post-centered li.active {
-				color: #000;
+				color: #000102;
 		}
 
 		.box.post-centered li:hover a {
-				color: #000;
+				color: #000102;
 		}
 
 		.box.post-centered a:hover {
-				color: #000;
+				color: #000102;
 		}
 
 		.box.page-content header {
@@ -843,7 +844,7 @@ table.default thead {
 		/* #WRAPPERS DESKTOP */
 
 		#banner-wrapper {
-				padding: 14em 0;
+				padding: 12em 0;
 		}
 
 		#main-wrapper {
@@ -860,6 +861,7 @@ table.default thead {
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
 				text-transform: uppercase;
+				padding: 4em 0 1.5em 0;
 				background: #fff;
 				margin: 0 auto;
 		}
@@ -871,7 +873,7 @@ table.default thead {
 		}
 
 		#header .logo div {
-				background: #fff;
+        background: #fff;
 				position: relative;
 				display: inline-block;
 				padding: 0 1.5em 0 1.5em;
@@ -884,7 +886,7 @@ table.default thead {
 
 		#header .logo p {
 				display: inline;
-				color: #264d6d;
+				color: #094074;
 		}
 
 
@@ -949,17 +951,17 @@ table.default thead {
   	}
 
 	  #nav li:hover a {
-				background: #264d6d;
+				background: #fe9000;
 				color: #fff;
   	}
 
 	  #nav li.active a {
-				background: #264d6d;
+				background: #fe9000;
 				color: #fff;
   	}
 
 	  #nav li.current a {
-				background: #336791;
+				background: #286aaf;
 				color: #fff;
   	}
 
@@ -1515,7 +1517,7 @@ table.default thead {
 				position: absolute;
 				left: 0;
 				top: 0;
-				background: #336791;
+				background: #286aaf;
 				width: 44px;
 				height: 44px;
 				content: '\f0c9';
@@ -1697,8 +1699,8 @@ h3.major.no-margin {
 */
 
 .contributorLeftBox {
-  	background-color: #336791;
-	  border-color: #336791;
+  	background-color: #286aaf;
+	  border-color: #286aaf;
 	  color: #fff;
 }
 
@@ -1729,7 +1731,7 @@ h3.major.no-margin {
 }
 
 .contributorFaux {
-	  background-color: #336791;
+	  background-color: #286aaf;
 	  border-bottom: #fff;
 }
 
