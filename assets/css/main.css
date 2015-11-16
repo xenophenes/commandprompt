@@ -567,16 +567,15 @@ table.default thead {
 
 #banner-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left, top left, center center;
-		background-repeat: repeat, repeat, no-repeat;
-		background-size: auto, auto, cover;
+		background-image: url("../../images/banner.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		z-index: 1;
 }
 
 #main-wrapper {
 		background: #fff;
-		border-top: 5px solid #286aaf;
 		border-bottom: solid 5px #666;
 }
 
@@ -590,7 +589,6 @@ table.default thead {
 
 #banner {
 		position: relative;
-		background-color: rgba(102, 102, 102, 0.70);
 		background-image: url("images/overlay.png"), url("images/highlight.png");
 		background-position: top left, center center;
 		background-size: auto, 100% 250%;
