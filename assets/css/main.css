@@ -614,10 +614,10 @@ table.default thead {
 		-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		transition: border-color .2s ease-in-out, color .2s ease-in-out;
-		color: #b4b7b5;
+		color: #fff;
 		background: transparent !important;
 		border: solid 4px #fff;
-		border-color: #b4b7b5;
+		border-color: #fff;
 		border-radius: 16px;
 }
 
