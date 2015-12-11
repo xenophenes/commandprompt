@@ -11,6 +11,7 @@
 * #094074: Darker blue
 * #e7eae8: Light gray
 * #fe9000: Orange
+* #1f2f16: Green
 * #000102102: Extremely dark gray, almost black
 *
 * -----------------------------------------
@@ -576,6 +577,7 @@ table.default thead {
 
 #main-wrapper {
 		background: #fff;
+    border-top: solid 5px #286aaf;
 		border-bottom: solid 5px #666;
 }
 
@@ -589,8 +591,9 @@ table.default thead {
 
 #banner {
 		position: relative;
+    background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("images/highlight.png");
-		background-position: top left, center center;
+		background-position: center center;
 		background-size: auto, 100% 250%;
 		background-repeat: repeat, no-repeat;
 		text-align: center;
@@ -1878,4 +1881,65 @@ label:before {
     height: 20px;
     background: #f8f8f8;
     position: absolute;
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 0px !important;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../../images/banner.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
 }
