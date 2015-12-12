@@ -1929,6 +1929,9 @@ section.module.parallax-1 {
 section.module.parallax-2 {
   background-image: url("../../images/banner2.jpeg");
 }
+section.module.parallax-3 {
+  background-image: url("../../images/banner3.jpeg");
+}
 
 @media all and (min-width: 600px) {
   section.module h2 {
