@@ -577,7 +577,7 @@ table.default thead {
 
 #main-wrapper {
 		background: #fff;
-    border-top: solid 5px #286aaf;
+    border-top: solid 5px #094074;
 		border-bottom: solid 5px #666;
 }
 
@@ -789,7 +789,7 @@ table.default thead {
 		}
 
 		.box.page-content header {
-				margin: 0 0 2.5em 0;
+				margin: 0 0 6em 0;
 		}
 
 		.box.page-content h2 {
@@ -887,7 +887,7 @@ table.default thead {
 
 		#header .logo p {
 				display: inline;
-				color: #286aaf;
+				color: #094074;
 		}
 
 
@@ -1907,7 +1907,7 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.parallax {
-  height: 600px;
+  height: 400px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1924,7 +1924,10 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/banner.jpeg");
+}
+section.module.parallax-2 {
+  background-image: url("../../images/banner2.jpeg");
 }
 
 @media all and (min-width: 600px) {
