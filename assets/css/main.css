@@ -1928,10 +1928,19 @@ section.module.parallax-1 {
   background-image: url("../../images/banner.jpeg");
 }
 section.module.parallax-2 {
-  background-image: url("../../images/banner2.jpeg");
+  background-image: url("../../images/banner2.jpg");
 }
 section.module.parallax-3 {
   background-image: url("../../images/banner3.jpeg");
+}
+section.module.parallax-4 {
+  background-image: url("../../images/banner4.jpeg");
+}
+section.module.parallax-5 {
+  background-image: url("../../images/banner5.jpg");
+}
+section.module.parallax-6 {
+  background-image: url("../../images/banner6.jpg");
 }
 
 @media all and (min-width: 600px) {
