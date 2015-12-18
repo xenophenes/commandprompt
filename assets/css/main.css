@@ -1659,6 +1659,11 @@ table.default thead {
 	    	list-style: none;
 	  }
 
+    .mobileParallaxFix {
+      margin-bottom: 40px;
+      margin-top: 60px;
+    }
+
 }
 
 
