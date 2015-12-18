@@ -716,13 +716,16 @@ table.default thead {
 
 		.box.feature {
 				text-align: center;
-        box-shadow: 10px 10px 10px #E7EAE8;
 		}
 
 		.box.feature > div {
         padding-top: 1.5em;
 				height: 17.5em;
 		}
+
+    .box.feature.profile {
+      box-shadow: 10px 10px 10px #E7EAE8;
+    }
 
 		.box.feature.date {
 				display: block;
