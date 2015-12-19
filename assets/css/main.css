@@ -1950,6 +1950,9 @@ section.module.parallax-5 {
 section.module.parallax-6 {
   background-image: url("../../images/banner6.jpg");
 }
+section.module.parallax-7 {
+  background-image: url("../../images/banner7.jpeg");
+}
 
 @media all and (min-width: 600px) {
   section.module h2 {
