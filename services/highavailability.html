@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+
+<!--
+Description: CommandPrompt Development Website
+Authors: Joshua Santos, Sarah Conway
+Joshua Santos URI: http://nerdsville.net/
+Sarah Conway URI: http://sarahconway.com/
+-->
+
+
+<html>
+	<head>
+		<title>Command Prompt, Inc. - High Availability</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/button.css" />
+		<link rel="stylesheet" href="../assets/css/containers.css" />
+		<link rel="stylesheet" href="../assets/css/copyright.css" />
+		<link rel="stylesheet" href="../assets/css/forms.css" />
+		<link rel="stylesheet" href="../assets/css/grid.css" />
+		<link rel="stylesheet" href="../assets/css/images.css" />
+		<link rel="stylesheet" href="../assets/css/jcarousel.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<header id="header">
+			<div class="logo container">
+				<div>
+					<h1><a href="index.html" id="logo">Command Prompt, Inc.</a></h1>
+					<p>The PostgreSQL Company.</p>
+				</div>
+			</div>
+		</header>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><span class="header"><img src="../images/cmd.jpg" alt="" /></span></li>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../about/about.html">About</a></li>
+						<li><a href="../products/products.html">Products</a></li>
+						<li class="current"><a href="../services/services.html">Services</a></li>
+						<li><a href="../support/support.html">Support</a></li>
+						<li><a href="../blog/blog.html">Blog</a></li>
+						<li><a href="../contact/contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+				<section class="module parallax parallax-5">
+				  <div class="container"></div>
+				</section>
+
+	<!-- Header -->
+
+	<!-- Main -->
+		<div id="main-wrapper">
+			<div id="main" class="container">
+
+					<div class="row 200%">
+						<div class="12u">
+							<section class="box features no-margin">
+								<h2 class="major no-margin"><span>High Availability</span></h2>
+							</section>
+							<section>
+								<p>
+                  PostgreSQL is widely accepted as the most scalable and stable Open Source database in the industry. It is also known
+                  to hold its own against any of the proprietary databases as well. There are a plethora of High Availability options
+                  available for every workload and business requirement.
+                </p>
+                <p>
+                  Any of the solutions may be used in conjunction with another solution. Thus you may use Block replication, but also
+                  have log shipping for a warm standby.
+                </br>
+                  If you need a more customized solution than what is below, do not hesitate to
+                  <strong><a href="../contact/contact.html">contact us.</a></strong>
+                </p>
+							</section>
+
+              <section class="box features no-margin">
+								<h2 class="major no-margin"><span>Log Shipping</span></h2>
+							</section>
+							<section>
+								<p>
+                  Also known as streaming replication and Point in Time Recovery, log shipping is a great mechanism for creating a Highly
+                  Available requirement. Log shipping is the least administrative overhead solution for a number of business requirements
+                  including: </br>
+                  <strong>>> </strong>DDL Replication</br>
+                  <strong>>> </strong>Zero load backups</br>
+                  <strong>>> </strong>Failover</br>
+                  <strong>>> </strong>Geographically disparate servers</br>
+                  <strong>>> </strong>An existing application cannot be modified</br>
+                  <strong>>> </strong>No read-only slave requirement</br>
+                  Solutions include PITRTools and Walmgr.
+                </p>
+              </section>
+
+              <section class="box features no-margin">
+								<h2 class="major no-margin"><span>Asynchronous Replication</span></h2>
+							</section>
+							<section>
+								<p>
+                  Asynchronous Replication provides a Master->Slave (also known as Origin->Subscriber) model of replication. Asynchronous
+                  Replication for PostgreSQL is an excellent option if your business requirements include: </br>
+                  <strong>>> </strong>Few DDL Changes (or Managed DDL Changes)</br>
+                  <strong>>> </strong>Read from Slaves</br>
+                  <strong>>> </strong>Geographically disparate servers</br>
+                  <strong>>> </strong>Failover or Switchover capability</br>
+                  <strong>>> </strong>Zero load backups</br>
+                  Solutions include Replicator, Londiste, and Slony.
+                </p>
+              </section>
+
+              <section class="box features no-margin">
+								<h2 class="major no-margin"><span>Block Replication</span></h2>
+							</section>
+							<section>
+								<p>
+                  Block level replication can be Synchronous or Asynchronous. It provides the lowest level of replication between two (or
+                  more) systems. In short it replicates disk blocks as they are modified, over the network the the receiving system. This
+                  type of replication is particularly useful for a true HA zero data loss scenario. Consider this option if your business
+                  requirements include:</br>
+                  <strong>>> </strong>Zero data loss</br>
+                  <strong>>> </strong>No need to read from the slave</br>
+                  <strong>>> </strong>No want to offload backups</br>
+                  <strong>>> </strong>Your slave/standby is in the same data center (synchronous)</br>
+                  Solutions include DRBD (CMD only supports Linux for this option).
+                </p>
+              </section>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer" class="container">
+				<div class="row 200%">
+					<div class="12u">
+
+						<!-- CONTACT -->
+						<section>
+							<h2 class="major"><span>Connect with Us</span></h2>
+							<ul class="contact">
+								<li><a class="icon fa-facebook" href="http://www.facebook.com/commandprompt"><span class="label">Facebook</span></a></li>
+								<li><a class="icon fa-twitter" href="http://www.twitter.com/cmdpromptinc"><span class="label">Twitter</span></a></li>
+								<li><a class="icon fa-linkedin" href="http://www.linkedin.com/pub/amanda-nystrom/23/2a9/177"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+						<!-- END CONTACT -->
+					</div>
+				</div>
+
+				<!-- Copyright -->
+				<div id="copyright">
+					<ul class="menu">
+						<li>© Copyright © 1996-2015 The PostgreSQL Global Development Group</li>
+					</ul>
+				</div>
+
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="../assets/js/jquery.dropotron.min.js"></script>
+		<script src="../assets/js/skel.min.js"></script>
+		<script src="../assets/js/skel-viewport.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="../assets/js/main.js"></script>
+	</body>
+</html>
