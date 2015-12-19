@@ -1923,6 +1923,14 @@ section.module.parallax {
   background-size: cover;
   margin-bottom: 0px !important;
 }
+section.module.parallax.blog {
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 0px !important;
+}
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 48px;
@@ -1952,6 +1960,10 @@ section.module.parallax-6 {
 }
 section.module.parallax-7 {
   background-image: url("../../images/banner7.jpeg");
+}
+section.module.parallax.blog-1 {
+  background-image: url("../../images/blogfeatured.jpeg");
+  border-radius: 20px;
 }
 
 @media all and (min-width: 600px) {
