@@ -1748,6 +1748,11 @@ h3.major.no-margin {
   padding-top: 0;
 }
 
+.product {
+  height: 420px;
+  margin-bottom: 20px;
+}
+
 /* #CONTRIBUTOR GREYBOXES MOBILE */
 
 @media screen and (max-width: 736px) {
