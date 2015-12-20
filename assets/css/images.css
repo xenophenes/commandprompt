@@ -106,7 +106,8 @@
     }
 
     .productImage {
-      width: 50%;
+      width: 20%;
+      padding: 0 0 2em 0;
     }
 
 
