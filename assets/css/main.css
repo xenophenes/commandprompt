@@ -649,6 +649,10 @@ table.default thead {
 		background: #f2f5f3;
 }
 
+.auditAndTune {
+  text-align: left;
+}
+
 
 /* #DESKTOP */
 
@@ -1661,8 +1665,16 @@ table.default thead {
 
     .mobileParallaxFix {
       margin-top: 60px;
+      margin-bottom: 20px;
     }
 
+    .product {
+      height: 100% !important;
+    }
+
+    .auditAndTune {
+      text-align: justify;
+    }
 }
 
 
