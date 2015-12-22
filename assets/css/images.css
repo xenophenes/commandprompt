@@ -110,7 +110,14 @@
       padding: 0 0 2em 0;
     }
 
-
+    .headerImage {
+      width: 10%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: -4em;
+    }
 /* #TABLET */
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -119,4 +126,12 @@
 		    width: 45.7%;
 	  }
 
+}
+
+@media screen and (max-width: 850px) {
+  .headerImage{
+    position: inherit;
+    width: 20%;
+    margin-bottom: 2.5em;
+  }
 }
