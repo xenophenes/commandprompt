@@ -1661,8 +1661,12 @@ table.default thead {
 
     .mobileParallaxFix {
       margin-top: 60px;
+      margin-bottom: 20px;
     }
 
+    .product {
+      height: 100% !important;
+    }
 }
 
 
