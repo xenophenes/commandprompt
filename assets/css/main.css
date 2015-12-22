@@ -986,7 +986,7 @@ table.default thead {
   	}
 
 	  .dropotron {
-				background: #666;
+				background: #094074;
 				color: #fff;
 				border-radius: 6px;
 				line-height: 2.75em;
@@ -1002,20 +1002,21 @@ table.default thead {
   	}
 
 	  .dropotron li > a, .dropotron li > span {
+        transition: background-color 0.5s ease;
 				display: block;
-				color: #d7dad8;
+				color: #fff;
 				text-decoration: none;
 				padding: 0 1.25em;
   	}
 
 	  .dropotron li:hover > a, .dropotron li:hover > span {
 				color: #fff;
-				background: #688297;
+				background: #fe9000;
   	}
 
 	  .dropotron li.active > a, .dropotron li.active > span {
 				color: #fff;
-				background: #688297;
+				background: #e7eae8;
   	}
 
 	  .dropotron li:first-child {
@@ -1034,7 +1035,7 @@ table.default thead {
 				left: 50%;
 				top: -0.65em;
 				border-left: solid 1em transparent;
-				border-bottom: solid 1em #666;
+				border-bottom: solid 1em #094074;
 				border-right: solid 1em transparent;
 	  }
 
