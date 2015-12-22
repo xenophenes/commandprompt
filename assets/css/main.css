@@ -649,6 +649,9 @@ table.default thead {
 		background: #f2f5f3;
 }
 
+.auditAndTune {
+  text-align: left;
+}
 
 /* #DESKTOP */
 
@@ -1666,6 +1669,10 @@ table.default thead {
 
     .product {
       height: 100% !important;
+    }
+
+    .auditAndTune {
+      text-align: justify;
     }
 }
 
